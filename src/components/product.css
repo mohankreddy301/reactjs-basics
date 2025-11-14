@@ -1,0 +1,24 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product-list-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem;
+}
+.productItem-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(199, 199, 219);
+  padding: 1rem;
+
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.productItem-container img {
+  object-fit: fill;
+}
