@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 4fr;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.gallery-container div {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+}
+.gallery-container div p {
+  font-size: 2rem;
+}

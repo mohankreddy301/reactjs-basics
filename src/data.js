@@ -1,0 +1,22 @@
+export  const users = [
+  { id: 1, name: "Aarav Sharma", age: 28, city: "Mumbai", image: "https://randomuser.me/api/portraits/men/1.jpg" },
+  { id: 2, name: "Isha Kapoor", age: 24, city: "Delhi", image: null },
+  { id: 3, name: "Rahul Verma", age: 31, city: "Bangalore", image: "https://randomuser.me/api/portraits/men/2.jpg" },
+  { id: 4, name: "Priya Nair", age: 29, city: "Kochi", image: null },
+  { id: 5, name: "Rohan Das", age: 26, city: "Kolkata", image: "https://randomuser.me/api/portraits/men/3.jpg" },
+  { id: 6, name: "Sneha Patel", age: 32, city: "Ahmedabad", image: null },
+  { id: 7, name: "Vikram Singh", age: 40, city: "Jaipur", image: "https://randomuser.me/api/portraits/men/4.jpg" },
+  { id: 8, name: "Neha Joshi", age: 27, city: "Pune", image: null },
+  { id: 9, name: "Amit Mehra", age: 35, city: "Chandigarh", image: "https://randomuser.me/api/portraits/men/5.jpg" },
+  { id: 10, name: "Kavya Rao", age: 30, city: "Hyderabad", image: null },
+  { id: 11, name: "Siddharth Iyer", age: 33, city: "Chennai", image: "https://randomuser.me/api/portraits/men/6.jpg" },
+  { id: 12, name: "Meera Reddy", age: 28, city: "Visakhapatnam", image: null },
+  { id: 13, name: "Dev Mishra", age: 22, city: "Lucknow", image: "https://randomuser.me/api/portraits/men/7.jpg" },
+  { id: 14, name: "Tanya Paul", age: 25, city: "Nagpur", image: null },
+  { id: 15, name: "Arjun Khanna", age: 38, city: "Indore", image: "https://randomuser.me/api/portraits/men/8.jpg" },
+  { id: 16, name: "Aditi Sen", age: 26, city: "Bhopal", image: null },
+  { id: 17, name: "Karan Bhatia", age: 29, city: "Surat", image: "https://randomuser.me/api/portraits/men/9.jpg" },
+  { id: 18, name: "Simran Chawla", age: 27, city: "Noida", image: null },
+  { id: 19, name: "Ritesh Malhotra", age: 34, city: "Gurgaon", image: "https://randomuser.me/api/portraits/men/10.jpg" },
+  { id: 20, name: "Ananya Pillai", age: 23, city: "Trivandrum", image: null }
+];
