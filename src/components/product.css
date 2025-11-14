@@ -26,3 +26,24 @@
 .productItem-container:hover {
   transform: scale(0.95);
 }
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
+  color: #666;
+}
+
+@media (max-width: 700px) {
+  .product-list-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .product-list-container {
+    grid-template-columns: 1fr;
+  }
+}

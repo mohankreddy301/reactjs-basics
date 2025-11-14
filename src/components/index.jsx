@@ -5,9 +5,11 @@ import ProductList from "./products/products-list.jsx";
 
 const Home = () => {
   const [userData, setUserData] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   const fetchdata = async () => {
     try {
+      setLoading(true);
       const response = await fetch(BaseURL);
       const responsedata = await response.json();
 
@@ -15,8 +17,10 @@ const Home = () => {
       if (products.length > 0) {
         setUserData(products);
       }
+      setLoading(false);
     } catch (error) {
       console.log(error);
+      setLoading(false);
     }
   };
 
@@ -29,7 +33,13 @@ const Home = () => {
 
   return (
     <div>
-      <ProductList itemsList={userData} />
+      {loading ? (
+        <div className="loader">
+          <p>Loading products...</p>
+        </div>
+      ) : (
+        <ProductList itemsList={userData} />
+      )}
     </div>
   );
 };
